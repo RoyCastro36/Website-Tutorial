@@ -35,8 +35,9 @@
     <main>
       <section id="about">
         <h2>About</h2>
+        <div class="row">
         <div class="section__description">
-            <div class="section__descritpion--wrapper">
+            <div class="section__description--wrapper">
               <p class="section__description--para">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste sit
                 sint illo explicabo quibusdam, inventore magni id nostrum
@@ -54,14 +55,17 @@
               <img src="/HTML Practise Assets/about.jpg" alt="about image" />
             </figure>
         </div>
+        </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
+            <div class="row">
             <div class="section__description">
-                <figure>
+                <figure class="discord__img--wrapper">
                 <img src="/HTML Practise Assets/discord.png" />
                 </figure>
+                <div class="section__description--wrapper">
             <div>
                 <p class="section__description--para">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -77,6 +81,7 @@
                 </p>
             </div>
             </div>
+            </div>
       </section>
 
       <section id="contact">
@@ -88,18 +93,18 @@
           <label>Message</label>
           <textarea placeholder="Your message"></textarea>
 
-          <button type="submit">Submit</button>
+          <button type="submit">Contact Us</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="/HTML Practise Assets/FES.svg" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#">Courses</a>"
+      <img class="footer__logo" src="/HTML Practise Assets/FES.svg" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="#">Courses</a>"
       </div>
       <p>© 2025 Frontend Simplified. All rights reserved.</p>
     </footer>

@@ -28,6 +28,7 @@ header{
 .row{
   width: 100%;
   max-width: 1300px;
+  margin: 0px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,6 +78,7 @@ ABOUT SECTION
 
 #about{
   padding: 48px 0px;
+  background-color: #f8ffdc;
 }
 
 h2{
@@ -93,6 +95,7 @@ h2{
 
 .about__img--wrapper{
 width: 40%;
+padding: 0px 24px;
 }
 
 img{
@@ -109,3 +112,79 @@ width: 100%;
   line-height: 1.5;
   margin-bottom: 24px;
 }
+
+/*
+
+DISCORD SECTION
+
+*/
+
+#discord{
+  background-color: #cafdff;
+  padding: 48px 0px;
+}
+
+.discord__img--wrapper{
+  width: 40%;
+  padding: 0px 24px;
+}
+
+/*
+
+  CONTACT SECTION
+
+*/
+
+#contact{
+  background-color: #dce9ff;
+  padding: 48px 0px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+label{
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+input, textarea{
+  font-size: 20px;
+  padding: 8px;
+  margin-bottom: 24px;
+  border: 2px solid #05c7cf;
+  border-radius: 4px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer{
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+}
+
+.footer__logo{
+  width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer__links{
+  margin-bottom: 32px;
+}
+
+.footer__link{
+  padding: 0px 16px;
+}
+
