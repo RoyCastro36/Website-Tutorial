@@ -143,7 +143,7 @@ DISCORD SECTION
 form{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   max-width: 600px;
   margin: 0px auto;
 }
@@ -188,3 +188,77 @@ footer{
   padding: 0px 16px;
 }
 
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width:728px){
+
+  .row{
+    flex-direction: column;
+    padding-top: 70px;
+  }
+  
+  .home__description{
+    margin: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home__description--button{
+    max-width: 240px;
+  }
+
+  .home__img--wrapper{
+    margin-bottom: 120px;
+    width: 80%;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .subheader{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  ul{
+    display:none;
+  }
+
+  .section__description{
+    flex-direction: column;
+  }
+
+  .section__description--wrapper{
+    width: 100%;
+  }
+
+  .about__img--wrapper{
+    width: 100%;
+  }
+
+  .discord__img--wrapper{
+    width: 100%;
+  }
+
+  #discord .section__description{
+    flex-direction: column-reverse;
+  }
+
+  .footer__logo{
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .footer__link{
+    padding: 0px 4px;
+    font-size: 18px;
+  }
+
+  .footer__links{
+    margin-bottom: 16px;
+  }
+
+
+}
